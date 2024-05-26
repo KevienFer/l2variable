@@ -25,12 +25,13 @@ setTimeout(() => {
 }, 6000);
 
 
-
-const button = document.getElementById("boton1");
-function action() {
-  alert("¡Que esperas para ir a descargar nuestros archivos!");
-}
-button.addEventListener("click", action);
+document.addEventListener("DOMContentLoaded", function() {
+  const button = document.getElementById("boton1");
+  function action() {
+      alert("¡Que esperas para ir a descargar nuestros archivos!");
+  }
+  button.addEventListener("click", action);
+});
 
 
 
