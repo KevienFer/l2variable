@@ -1,0 +1,103 @@
+body{
+    font-family: "Bookman Old Style";
+    font-size: 20px;
+    background: transparent;
+    background-image: url("/Imagenes/l2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    letter-spacing: 3px;
+
+}
+.titulo{
+  color: #c5c59d ;
+  display: flex;
+  font-size: 30px;
+  letter-spacing: 7px;
+  border: 5px groove#454240;
+  padding: 15px;
+  justify-content: center;
+  border-radius: 5px;
+  
+}
+div{
+  color: aliceblue;
+}
+p{
+  color: aliceblue;
+  text-align: justify
+}
+
+.barra{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+  
+  
+  padding: 10px 0;
+  background: transparent;
+  
+}
+.barra ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.barra li {
+  display: inline-block;
+  margin: 10px;
+  
+}
+
+.barra a {
+  text-decoration: none;
+  color: #fcfcfc;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.caracteristicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    
+  }
+
+a{
+    color: #edf815;
+}
+footer {
+    background-color: #000000;
+    padding: 15px;
+    text-align: center;
+  }
+footer p {
+    margin: 0;
+    color: #454240;
+}
+#banner3 {
+  width: 250px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  display: none; 
+  position: fixed; 
+  top: 20px; 
+  left: 50%; 
+  transform: translate(-50%); 
+  z-index: 1000; 
+}
